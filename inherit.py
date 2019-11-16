@@ -56,7 +56,7 @@ class ElectricCar(Car):
 
 
 if __name__ == "__main__":
-    my_tesla = ElectricCar('tesla', 'model s', 2016, Battery(80))
+    my_tesla = ElectricCar('tesla', 'model s', 2016, Battery(90))
     # 实例化ElectricCar, 并将Battery实例化的对象作为初始化参数
     print(my_tesla.get_descriptive_name())
     my_tesla.origin_battery_size.describe_battery()
